@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+
+    header .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .home {
+        background-position: left;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+    }
+
+    .container-contato {
+        flex-direction: column;
+    }
+
+    .mapa {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .formulario-contato {
+        padding: 15px;
+    }
+
+    .form-grup {
+        width: 100%;
+    }
+
+    .form-grup label>i {
+        font-size: 22px;
+    }
+
+    .btn-contato {
+        width: 200px;
+        font-size: .90rem;
+        margin-bottom: 10px;
+    }
+}
